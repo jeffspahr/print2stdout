@@ -1,4 +1,4 @@
-FROM apline:latest
+FROM centos8:latest
 LABEL maintainer="jeffspahr"
 RUN mkdir /opt/print2stdout \
   && chgrp -R 0 /opt/print2stdout \
